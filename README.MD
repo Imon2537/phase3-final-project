@@ -21,15 +21,14 @@ Escapepad is a Python-based Command-Line Interface (CLI) gaming platform designe
 . pip for package management
 #### Installation
 - Clone the repository:
-git clone https://github.com/username/escapepad.git
-cd escapepad
+. git clone https://github.com/Imon2537/phase3-final-project
+. cd escapepad
 
 - Install the required dependencies:
-pip install -r requirements.txt
-
+. pipenv install
 - Set up the database:
 
-python database_setup.py
+. python3 model.py
 - Run the main application:
 python escapepad.py
 #### How to Play
